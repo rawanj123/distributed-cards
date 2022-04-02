@@ -10,20 +10,20 @@ html {
 
 body {
   margin: 0;
-  padding: .5em .75em .6em;
+  padding: .75em;
   background-color: #fff;
 }
 
 h1 {
   color: #623b0c;
-  margin: 0;
+  margin: .25em 0;
   font-family: "Denk One";
 }
 
 h2 {
   font-family: "Denk One", serif;
   color: #623b0c;
-  margin-top: 2rem;
+  margin-top: .2em;
 }
 
 ol {
@@ -35,4 +35,33 @@ ol {
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   border-radius: 8px;
+}
+
+li {
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #ede3db;
+}
+
+a {
+  background-color: #623b0c;
+  color: #fff;
+  border-radius: 8px;
+  padding: .6em;
+  justify-content: flex-start;
+  text-decoration: none;
+  margin-top: auto;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+p {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
